@@ -1,0 +1,123 @@
+.tab {
+	margin: 0 25px 0 0; 
+    width: 399px;
+    float: right;
+    ul {
+    list-style: none;
+        li{
+        float: left;
+        font-size: 16px;
+        margin: 0 -1px -1px 0;
+            a{
+            display: block;
+            text-decoration: none;
+            padding: 13px;
+            }
+        }
+    }
+}
+.main {
+	border: 1px solid gray;
+    border-bottom-color: #e8eced;
+    border-radius:  25px 0 0 0;
+    background-image: linear-gradient(#fff,#e8eced);
+    a {
+	color: #45b8fb;
+    font-family: Arial;
+    font-size: 16px;
+    }
+}
+.goal {
+    border: 1px solid gray;
+    background-image: linear-gradient(#e5eaeb,#d9d7d5);
+    a {
+	color: #939598;
+    font-family: Arial;
+    font-size: 16px;
+    }
+}
+.comp {
+	border: 1px solid gray;
+    border-radius: 0 25px  0 0;
+    background-image: linear-gradient(#e5eaeb,#d9d7d5);
+    a {
+	color: #939598;
+    font-family: Arial;
+    font-size: 16px;
+    }
+}
+.main-inform {
+    float: left;
+    margin-left: 20px;
+    padding-top: 64px;
+    h3 {
+        color: #010101;
+        font-family: Arial;
+        font-size: 26px;
+        font-weight: 400;
+        margin: 0;
+    }
+}
+.main-info {
+    float: left;
+    width: 528px;
+    border-top: 1px solid #01a1fb;
+    margin: 10px 0 30px 0;
+}
+.tags {
+    color: #636464;
+    font-family: Arial;
+    font-size: 10px;
+    float: left;
+    a {
+        color: #01a1fb; 
+    }
+}
+.date {
+    float: right;
+    font-family: Arial;
+    font-size: 10px;
+    color: #cfd2d2;
+    }
+.content {
+    clear: both;
+    color: #636464;
+    font-family: Arial;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 20px;
+    a {
+        color: #01a1fb;
+    }
+}
+.voting {
+    color: #636464;
+    font-family: Arial;
+    font-size: 12px;
+    i {
+        color: #06a7fb;
+        margin-right: 1px;
+        &:nth-of-type(4) {
+            color: #999; 
+        }
+        &:nth-of-type(5) {
+            color: #999; 
+        }
+    }
+    a {
+        color: #01a1fb; 
+    }
+}
+.previous {
+    color: black;
+    font-family: Arial;
+    background-color: white;
+    border: 3px solid #00a5ff;
+    border-radius: 25px; 
+    padding: 7px;
+}
+.butt-on {    
+    margin-bottom: 12px;
+}    
+
+ 

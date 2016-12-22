@@ -1,0 +1,88 @@
+.tab {
+  margin: 0 25px 0 0;
+  width: 399px;
+  float: right;
+}
+.tab ul {
+  list-style: none;
+}
+.tab ul li {
+  float: left;
+  font-size: 16px;
+  margin: 0 -1px -1px 0;
+}
+.tab ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 13px;
+}
+
+.comp {
+  border: 1px solid gray;
+  border-radius: 0 25px  0 0;
+  background-image: -webkit-linear-gradient(#e5eaeb, #d9d7d5);
+  background-image: linear-gradient(#e5eaeb, #d9d7d5);
+}
+.comp a {
+  color: #939598;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.goal {
+  border: 1px solid gray;
+  border-bottom-color: #e8eced;
+  background-image: -webkit-linear-gradient(#fff, #e8eced);
+  background-image: linear-gradient(#fff, #e8eced);
+}
+.goal a {
+  color: #45b8fb;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.main {
+  border: 1px solid gray;
+  border-radius: 25px 0 0 0;
+  background-image: -webkit-linear-gradient(#e5eaeb, #d9d7d5);
+  background-image: linear-gradient(#e5eaeb, #d9d7d5);
+}
+.main a {
+  color: #939598;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.main-inform {
+  float: left;
+  margin-left: 20px;
+  padding-top: 64px;
+}
+.main-inform h3 {
+  color: #010101;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.main-info {
+  float: left;
+  width: 528px;
+  border-top: 1px solid #01a1fb;
+  margin: 10px 0 30px 0;
+}
+.main-info p {
+  color: #444;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Arial;
+  font-weight: 400;
+}
+.main-info h5 {
+  font-family: Arial;
+  color: #03a7fe;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}

@@ -1,0 +1,37 @@
+//.reg:hover {
+//    visibility: hidden;
+//    position: absolute;
+//    background-clip: border-box;
+//    background: #f22;
+//    width: 427px;
+//    height: 315px;
+//    
+//}
+.reg {
+    form {
+    visibility: hidden;
+    position: absolute;
+    background: #f22;
+    shape-inside: url(../img/reg.png);
+    width: 427px;
+    height: 315px;
+        &:hover {
+            visibility: visible;
+        }
+    }
+}
+#div{
+    &:target {
+        .registration {
+        visibility: hidden;
+        position: absolute;
+        background: #f22;
+        shape-inside: url(../img/reg.png);
+        width: 427px;
+        height: 315px;
+            &:hover {
+                visibility: visible;
+        }
+    }    
+    }
+}

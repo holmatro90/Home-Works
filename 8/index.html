@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-buttons.css" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+            $(".fancybox-effects-a").fancybox({
+                helpers: {
+                    title: {
+                        type: 'outside'
+                    },
+                    overlay: {
+                        speedOut: 0
+                    }
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+    <header>
+        <div class="conteiner">
+            <div class="row">
+                <h1 class="logo col-sm-2 col-sm-offset-1">
+                    <a href="#"><img src="img/logo.png" alt="logo">strict</a>
+                </h1>
+            </div>
+        </div>
+
+    </header>
+    <section class="welcome">
+        <div class="conteiner">
+            <h1>strict</h1>
+            <p>STRICT is a responsive theme with a a clean and minimal look.</p>
+            <a class="button" href="#main-information">Call to action</a>
+            <div class="angle">
+                <a href="#main-information"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="main-information" id="main-information">
+            <h2>Simple & pure design.</h2>
+            <p>Designers everywhere gush with admiration upon seeing a web design and exclaim "its beautiful, it's so clean!". There are a countless number of webdesign round-ups dedicated to 'clean' design and it is a term thrown around quite a bit in the web design community. It can be easy to spot a good example of clean design.</p>
+    </section>
+    <section class="category">
+	    <div class="conteiner">
+		    <div class="row">
+                <ul class="category-colum">
+                    <li class="col-md-4">
+                        <span class="icons mobile "><i class="fa fa-mobile fa-4x" aria-hidden="true"></i></span>
+                        <h3>Optimized for all devices</h3>
+                        <p>STRICT has been designed to be fully
+                            responsive on all devices</p>
+                    </li>
+                    <li class="col-md-4">
+                        <span class="icons"><i class="fa fa-paper-plane fa-3x" aria-hidden="true"></i></span>
+                        <h3>Clean & Minimal Design</h3>
+                        <p>This multipurpose theme is especially created
+                            to be used for different projects.</p>
+                    </li>
+                    <li class="col-md-4">
+                        <span class="icons"><i class="fa fa-bullhorn fa-3x" aria-hidden="true"></i></span>
+                        <h3>Font Awesome Icon</h3>
+                        <p>This multipurpose theme is especially created
+                            to be used for different projects.</p>
+                    </li>
+                </ul>
+            </div>
+	    </div>
+    </section>
+    <section class="preview">
+        <div class="conteiner">
+            <h2>Showcase your work like a pro.</h2>
+            <p> Contact me if you like my work</p>
+            <div class="row">
+                <ul class="preview-list">
+                    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col- example">
+                        <img class="img-responsive" src="img/layer-29.png" alt="prev">
+                        <div class="overlay">
+                            <a class="info fancybox"  href="img/layer-29.jpg" data-fancybox-group="gallery"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                            <a class="info" href="#">
+                                <i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </li>
+                    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col- example">
+                        <img class="img-responsive" src="img/layer-31.png" alt="prev">
+                        <div class="overlay">
+                            <a class="info fancybox"  href="img/layer-31.jpg" data-fancybox-group="gallery"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                            <a class="info" href="#">
+                                <i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </li>
+                    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col- example">
+                        <img class="img-responsive" src="img/layer-32.png" alt="prev">
+                        <div class="overlay">
+                            <a class="info fancybox"  href="img/layer-32.jpg" data-fancybox-group="gallery"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                            <a class="info" href="#">
+                                <i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </li>
+                    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col- example">
+                        <img class="img-responsive" src="img/layer-33.png" alt="prev">
+                        <div class="overlay">
+                            <a class="info fancybox"  href="img/layer-33.jpg" data-fancybox-group="gallery"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                            <a class="info" href="#">
+                                <i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </li>
+                    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col- example">
+                        <img class="img-responsive" src="img/layer-34.png" alt="prev">
+                        <div class="overlay">
+                            <a class="info fancybox"  href="img/layer-34.jpg" data-fancybox-group="gallery"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                            <a class="info" href="#">
+                                <i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </li>
+                    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col- example">
+                        <img class="img-responsive" src="img/layer-35.png" alt="prev">
+                        <div class="overlay">
+                            <a class="info fancybox"  href="img/layer-35.jpg" data-fancybox-group="gallery"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                            <a class="info" href="#">
+                                <i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="conteiner color">
+            <h2>Stay with us</h2>
+            <p>We ensure quailty & support</p>
+                <div class="col-sm-6 col-md-6 col-md-offset-3">
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class ="form-style form-control" id="text" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-style form-control" id="email" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-style form-control" id="message" placeholder="Message" rows="6"></textarea>
+                        </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox">Subscribe Newsletter
+                                </label>
+                            </div>
+                            <button type="submit" class="submit btn col-xs-offset-1">Send</button>
+                    </form>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner">
+            <div class="row">
+                <p class="col-sm-3 col-sm-offset-1">Copyritht 2014, STRICT</p>
+                <div class="social col-sm-offset-8">
+                    <ul>
+                        <li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+                        <li class="twitter"><a href="https://www.twitter.com/"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+                        <li class="google-plus"><a href="https://plus.google.com/"><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a></li>
+                        <li class="linkedin"><a href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

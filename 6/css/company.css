@@ -1,0 +1,155 @@
+.tab {
+  margin: 0 25px 0 0;
+  width: 399px;
+  float: right;
+}
+.tab ul {
+  list-style: none;
+}
+.tab ul li {
+  float: left;
+  font-size: 16px;
+  margin: 0 -1px -1px 0;
+}
+.tab ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 13px;
+}
+
+.comp {
+  border: 1px solid gray;
+  border-bottom-color: #e8eced;
+  border-radius: 0 25px  0 0;
+  background-image: -webkit-linear-gradient(#fff, #e8eced);
+  background-image: linear-gradient(#fff, #e8eced);
+}
+.comp a {
+  color: #45b8fb;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.goal {
+  border: 1px solid gray;
+  background-image: -webkit-linear-gradient(#e5eaeb, #d9d7d5);
+  background-image: linear-gradient(#e5eaeb, #d9d7d5);
+}
+.goal a {
+  color: #939598;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.main {
+  border: 1px solid gray;
+  border-radius: 25px 0 0 0;
+  background-image: -webkit-linear-gradient(#e5eaeb, #d9d7d5);
+  background-image: linear-gradient(#e5eaeb, #d9d7d5);
+}
+.main a {
+  color: #939598;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.main-inform {
+  float: left;
+  width: 528px;
+  margin: 0 0 0 20px;
+  padding-top: 40px;
+}
+.main-inform h2 {
+  color: #010101;
+  font-family: Arial;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.vis {
+  width: 528px;
+  border-top: 1px solid #00a7fb;
+  margin-top: -10px;
+  float: left;
+}
+
+.vise {
+  width: 528px;
+  border-top: 1px solid #00a7fb;
+  margin-top: 18px;
+  float: left;
+}
+
+.ing img {
+  margin: 17px 20px 0 11px;
+  float: left;
+}
+
+.link {
+  text-decoration: none;
+}
+.link h3 {
+  color: #03a7fe;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  margin: 15px 0 0 20px;
+}
+
+.tabl {
+  float: right;
+}
+.tabl a {
+  text-decoration: none;
+  color: #000;
+}
+.tabl i {
+  color: #6c6c6c;
+  margin-right: 5px;
+}
+.tabl .site {
+  color: #03a7fe;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+dl {
+  background-color: #dfe5e6;
+  width: 393px;
+}
+dl dt {
+  margin: 0;
+  width: 164px;
+  float: left;
+  color: #505050;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 6px 8px;
+}
+dl dd {
+  margin: 0;
+  width: 197px;
+  color: #505050;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  float: left;
+  padding: 6px 8px;
+}
+
+dt.color {
+  background-color: #edf0f1;
+  padding: 13px 8px;
+}
+
+.color {
+  background-color: #edf0f1;
+}
+
+.border {
+  border-bottom: 3px solid #fff;
+}
