@@ -10,7 +10,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Code';/*Ты подключаешь разные шрифты под одним названием. Это не правильно*/
+    font-family: 'Code Bold';
     src: local('Code Bold'), local('Code-Bold'), url('../fonts/codebold.woff2') format('woff2'), url('../fonts/codebold.woff') format('woff'), url('../fonts/codebold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
@@ -23,8 +23,8 @@ footer {
     background: #3f3f44;
     padding-top: 2em;
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a { /*это не по САССному*/
-    background-image: linear-gradient(to bottom,#ffea00 0,#ffea00 100%);/*префиксы*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a { 
+    background-image: linear-gradient(to bottom,#ffea00 0,#ffea00 100%);
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-image: linear-gradient(to bottom,#ffea00 0,#ffea00 100%);
@@ -39,9 +39,28 @@ footer {
 .navbar{
     border-radius: 0px;
 }
+.flex-direction-nav a:before {
+	display: block;
+	position: absolute;
+	content: '<';
+	width: 9px;
+	height: 13px;
+	top: 11px;
+	left: 11px;
+	background: url(../img/left-arrow.png) no-repeat;
+}
+
+.flex-direction-nav a:after {
+	display: block;
+	position: absolute;
+	content: '>';
+	width: 0;
+	height: 0;
+	top: 35px;
+}
 .flexslider {
     background: none;
-    border: 4px solid transparent; /*Если он прозрачный, то зачем ему задавать толщину?*/
+    border: 4px solid transparent; 
 }
 .slide {
     background-image: url(../img/slider-bg.png);
@@ -51,7 +70,7 @@ footer {
 }
 
 .flex-control-nav{
-    bottom: 5px;
+    bottom: 20px;
 }
 .flex-control-paging li a {
     border-radius: 0;
@@ -104,6 +123,7 @@ footer {
         }
     }
 }
+
 .speciality {
     text-align: center;
     margin-bottom: 2em;
@@ -130,7 +150,7 @@ footer {
     .icon {
         background: #ffeb00;
         line-height: 120px;
-        padding: 0.4em 0 0.2em 0;/*0.4em 0 0.2em - было бы достаточно */
+        padding: 0.6em 0 0.3em;
         &:hover {
             background: #e3e8e6;
         }
@@ -193,10 +213,11 @@ footer {
     
 }
 .grid {
-    
     .grid-item{
         float: left;
         margin: 1px;
+        display: inline-block;
+        list-style: none;
     }
 } /*попадешь ты с такими стилями ) */
 .our-client {
