@@ -1,0 +1,4 @@
+/10/node_modules/*
+/10/.bowerrc
+/10/gulpfile.js
+/10/package.json
