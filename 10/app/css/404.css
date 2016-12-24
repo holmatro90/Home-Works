@@ -26,6 +26,9 @@ header {
     text-transform: uppercase;
     font: bold  "gothic"; }
 
+section {
+  padding: 7em 0; }
+
 footer {
   background: #3f3f44;
   padding-top: 2em; }
@@ -45,6 +48,44 @@ footer {
 
 .navbar {
   border-radius: 0px; }
+
+.problem {
+  text-align: center; }
+  .problem .big {
+    color: #3f3f44;
+    font: 400 15em "gothic"; }
+  .problem .page {
+    color: #ffea00;
+    font: bold 6em "gothic";
+    background: #3f3f44;
+    display: inline-block;
+    position: relative;
+    padding-right: 1em; }
+    .problem .page span {
+      position: absolute;
+      font-size: 2em;
+      z-index: 2;
+      top: -75px;
+      right: 10px; }
+  .problem .problem-link {
+    display: inline-block;
+    background: #000;
+    border-bottom: 3px solid #ffeb00;
+    color: #fff;
+    font: bold 2em "gothic";
+    padding: 0.2em 1em;
+    margin: 0 2em; }
+    .problem .problem-link:hover {
+      background: #ffeb00;
+      color: #000; }
+  .problem .dif {
+    display: inline-block;
+    background: #ffeb00;
+    font: bold 2em "gothic";
+    padding: 0.2em 0.6em; }
+
+.link {
+  margin-top: 2em; }
 
 .about h4 {
   color: #fff;
