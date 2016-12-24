@@ -27,11 +27,36 @@ header {
     font: bold  "gothic"; }
 
 section {
-  padding: 7em 0; }
+  padding: 2em 0;
+  text-align: center; }
+  section h4 {
+    font: bold 2.5em  "gothic";
+    color: #424147;
+    text-transform: uppercase; }
+  section p {
+    font: bold 1em "gothic";
+    color: #424147; }
+  section .nav-tabs {
+    border: transparent; }
+    section .nav-tabs li {
+      font: bold 1em "gothic";
+      color: #424147; }
+      section .nav-tabs li a {
+        color: #424147; }
 
 footer {
   background: #3f3f44;
   padding-top: 2em; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border: transparent; }
+
+.nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  background: #ffeb00; }
+
+.nav-tabs > li > a:hover {
+  background: #ffeb00;
+  border: transparent; }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
   background-image: -webkit-linear-gradient(top, #ffea00 0, #ffea00 100%);
@@ -52,43 +77,9 @@ footer {
 .navbar {
   border-radius: 0px; }
 
-.problem {
-  text-align: center; }
-  .problem .big {
-    color: #3f3f44;
-    font: 400 15em "gothic"; }
-  .problem .page {
-    color: #ffea00;
-    font: bold 6em "gothic";
-    background: #3f3f44;
-    display: inline-block;
-    position: relative;
-    padding-right: 1em; }
-    .problem .page span {
-      position: absolute;
-      font-size: 2em;
-      z-index: 2;
-      top: -75px;
-      right: 10px; }
-  .problem .problem-link {
-    display: inline-block;
-    background: #000;
-    border-bottom: 3px solid #ffeb00;
-    color: #fff;
-    font: bold 2em "gothic";
-    padding: 0.2em 1em;
-    margin: 0 2em; }
-    .problem .problem-link:hover {
-      background: #ffeb00;
-      color: #000; }
-  .problem .dif {
-    display: inline-block;
-    background: #ffeb00;
-    font: bold 2em "gothic";
-    padding: 0.2em 0.6em; }
-
-.link {
-  margin-top: 2em; }
+.example {
+  display: inline-block;
+  margin: 1em 0; }
 
 .about h4 {
   color: #fff;
@@ -248,3 +239,51 @@ address ul {
   background: #000; }
   .navbar-inverse .navbar-text {
     color: #ffeb00; }
+
+.example .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(21, 164, 250, 0.9);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out; }
+
+.example .wraper {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  border: 1px solid #f1f1f1; }
+
+.example a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  margin: 7em 11em; }
+
+.example a.info:hover {
+  box-shadow: 0 0 5px #fff; }
+
+.example:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px); }
+
+.example:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s; }
