@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: 'gothic';
   src: url("../fonts/gothic.eot");
@@ -217,7 +216,6 @@ footer {
   list-style: none;
 }
 
-/*╨┐╨╛╨┐╨░╨┤╨╡╤И╤М ╤В╤Л ╤Б ╤В╨░╨║╨╕╨╝╨╕ ╤Б╤В╨╕╨╗╤П╨╝╨╕ ) */
 .our-client {
   text-align: center;
   padding-bottom: 3em;
@@ -288,7 +286,6 @@ footer {
 }
 
 .soc {
-  float: left;
   margin-right: 5px;
 }
 
@@ -396,4 +393,24 @@ address ul li {
 
 #mc_embed_signup .button {
   background: #000;
+}
+
+#mc_embed_signup_scroll {
+  display: inline-block;
+}
+
+.photo-stream ul {
+  padding: 0 15px;
+}
+.photo-stream ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-inverse {
+  background: #000;
+}
+.navbar-inverse .navbar-text {
+  color: #ffeb00;
 }
