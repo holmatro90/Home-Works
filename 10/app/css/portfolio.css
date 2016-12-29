@@ -1,135 +1,170 @@
 @font-face {
   font-family: 'gothic';
   src: url("../fonts/gothic.eot");
-  src: local("gothic"), url("../fonts/gothic.woff") format("woff"), url("../fonts/gothic.ttf") format("truetype"); }
+  src: local("gothic"), url("../fonts/gothic.woff") format("woff"), url("../fonts/gothic.ttf") format("truetype");
+}
 @font-face {
   font-family: 'Code';
   src: local("Code Light"), local("Code-Light"), url("../fonts/codelight.woff2") format("woff2"), url("../fonts/codelight.woff") format("woff"), url("../fonts/codelight.ttf") format("truetype");
   font-weight: 300;
-  font-style: normal; }
+  font-style: normal;
+}
 @font-face {
   font-family: 'Code Bold';
   src: local("Code Bold"), local("Code-Bold"), url("../fonts/codebold.woff2") format("woff2"), url("../fonts/codebold.woff") format("woff"), url("../fonts/codebold.ttf") format("truetype");
   font-weight: 700;
-  font-style: normal; }
+  font-style: normal;
+}
 body {
-  background: #f6f6f6; }
+  background: #f6f6f6;
+}
 
 header {
-  background: url(../img/slider-bg.png); }
-  header .title {
-    background: #403f44;
-    color: #ffea00;
-    display: inline-block;
-    margin: 1em 2em;
-    padding: 0.2em 0.8em 0.2em 0.4em;
-    text-transform: uppercase;
-    font: bold  "gothic"; }
+  background: url(../img/slider-bg.png);
+}
+header .title {
+  background: #403f44;
+  color: #ffea00;
+  display: inline-block;
+  margin: 1em 2em;
+  padding: 0.2em 0.8em 0.2em 0.4em;
+  text-transform: uppercase;
+  font: bold  "gothic";
+}
 
 section {
   padding: 2em 0;
-  text-align: center; }
-  section h4 {
-    font: bold 2.5em  "gothic";
-    color: #424147;
-    text-transform: uppercase; }
-  section p {
-    font: bold 1em "gothic";
-    color: #424147; }
-  section .nav-tabs {
-    border: transparent; }
-    section .nav-tabs li {
-      font: bold 1em "gothic";
-      color: #424147; }
-      section .nav-tabs li a {
-        color: #424147; }
+  text-align: center;
+}
+section h4 {
+  font: bold 2.5em  "gothic";
+  color: #424147;
+  text-transform: uppercase;
+}
+section p {
+  font: bold 1em "gothic";
+  color: #424147;
+}
+section .nav-tabs {
+  border: transparent;
+}
+section .nav-tabs li {
+  font: bold 1em "gothic";
+  color: #424147;
+}
+section .nav-tabs li a {
+  color: #424147;
+}
 
 footer {
   background: #3f3f44;
-  padding-top: 2em; }
+  padding-top: 2em;
+}
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  border: transparent; }
+  border: transparent;
+}
 
 .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
-  background: #ffeb00; }
+  background: #ffeb00;
+}
 
 .nav-tabs > li > a:hover {
   background: #ffeb00;
-  border: transparent; }
+  border: transparent;
+}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
   background-image: -webkit-linear-gradient(top, #ffea00 0, #ffea00 100%);
-  background-image: linear-gradient(to bottom, #ffea00 0, #ffea00 100%); }
+  background-image: linear-gradient(to bottom, #ffea00 0, #ffea00 100%);
+}
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   background-image: -webkit-linear-gradient(top, #ffea00 0, #ffea00 100%);
-  background-image: linear-gradient(to bottom, #ffea00 0, #ffea00 100%); }
+  background-image: linear-gradient(to bottom, #ffea00 0, #ffea00 100%);
+}
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   background-image: -webkit-linear-gradient(top, #ffea00 0, #ffea00 100%);
-  background-image: linear-gradient(to bottom, #ffea00 0, #ffea00 100%); }
+  background-image: linear-gradient(to bottom, #ffea00 0, #ffea00 100%);
+}
 
 .navbar-collapse {
-  padding-top: 45px; }
+  padding-top: 45px;
+}
 
 .navbar {
-  border-radius: 0px; }
+  border-radius: 0px;
+}
 
 .example {
   display: inline-block;
-  margin: 1em 0; }
+  margin: 1em 0;
+}
 
 .about h4 {
   color: #fff;
-  font: bold 1.2em "gothic"; }
+  font: bold 1.2em "gothic";
+}
 .about p {
   color: #fff;
   font: 0.8em "gothic";
-  line-height: 21px; }
+  line-height: 21px;
+}
 .about .more {
   background: #000;
   border-bottom: 3px solid #ffeb00;
   color: #fff;
   font: bold 1em "gothic";
   padding: 0.2em 1em;
-  margin: 2em 0; }
-  .about .more:hover {
-    background: #ffeb00;
-    color: #000; }
+  margin: 2em 0;
+}
+.about .more:hover {
+  background: #ffeb00;
+  color: #000;
+}
 .about img {
-  margin-top: 2px; }
+  margin-top: 2px;
+}
 
 .tweets h4 {
   color: #fff;
-  font: bold 1.2em "gothic"; }
+  font: bold 1.2em "gothic";
+}
 .tweets .tweet-list {
   list-style: none;
   color: #fff;
-  font: bold 1em "gothic"; }
-  .tweets .tweet-list li {
-    display: inline-block;
-    margin-top: 0.8em;
-    position: relative; }
-    .tweets .tweet-list li a {
-      color: #ffeb00; }
-    .tweets .tweet-list li .time {
-      color: #ffeb00;
-      font-size: 8px; }
-    .tweets .tweet-list li::before {
-      content: '';
-      background: url(../img/twitter-birs-icon.png) no-repeat left top;
-      width: 26px;
-      height: 22px;
-      position: absolute;
-      left: -35px;
-      top: 10px; }
-    .tweets .tweet-list li .link {
-      color: #fff; }
+  font: bold 1em "gothic";
+}
+.tweets .tweet-list li {
+  display: inline-block;
+  margin-top: 0.8em;
+  position: relative;
+}
+.tweets .tweet-list li a {
+  color: #ffeb00;
+}
+.tweets .tweet-list li .time {
+  color: #ffeb00;
+  font-size: 8px;
+}
+.tweets .tweet-list li::before {
+  content: '';
+  background: url(../img/twitter-birs-icon.png) no-repeat left top;
+  width: 26px;
+  height: 22px;
+  position: absolute;
+  left: -35px;
+  top: 10px;
+}
+.tweets .tweet-list li .link {
+  color: #fff;
+}
 
 .soc {
-  margin-right: 5px; }
+  margin-right: 5px;
+}
 
 .social li {
   text-align: center;
@@ -140,72 +175,89 @@ footer {
   min-height: 30px;
   vertical-align: middle;
   padding-top: 5px;
-  margin-top: 2px; }
-  .social li a {
-    color: #fff; }
-    .social li a:hover {
-      color: #000; }
-  .social li:hover {
-    background: #ffeb00; }
+  margin-top: 2px;
+}
+.social li a {
+  color: #fff;
+}
+.social li a:hover {
+  color: #000;
+}
+.social li:hover {
+  background: #ffeb00;
+}
 
 .address h4 {
   color: #fff;
-  font: bold 1.2em "gothic"; }
+  font: bold 1.2em "gothic";
+}
 .address p {
   color: #fff;
   font: 1em "gothic";
-  line-height: 21px; }
+  line-height: 21px;
+}
 
 address ul {
-  list-style: none; }
-  address ul li {
-    margin-top: 1em;
-    color: #fff;
-    font: 1em "gothic";
-    line-height: 21px; }
+  list-style: none;
+}
+address ul li {
+  margin-top: 1em;
+  color: #fff;
+  font: 1em "gothic";
+  line-height: 21px;
+}
 
 .adr {
-  position: relative; }
-  .adr::before {
-    content: '';
-    background: url(../img/adress.png) no-repeat left top;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: -35px;
-    top: 3px; }
+  position: relative;
+}
+.adr::before {
+  content: '';
+  background: url(../img/adress.png) no-repeat left top;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -35px;
+  top: 3px;
+}
 
 .phn {
-  position: relative; }
-  .phn a {
-    color: #fff; }
-  .phn::before {
-    content: '';
-    background: url(../img/phone.png) no-repeat left top;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: -35px;
-    top: 3px; }
+  position: relative;
+}
+.phn a {
+  color: #fff;
+}
+.phn::before {
+  content: '';
+  background: url(../img/phone.png) no-repeat left top;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -35px;
+  top: 3px;
+}
 
 .mail {
-  position: relative; }
-  .mail a {
-    color: #ffeb00; }
-  .mail::before {
-    content: '';
-    background: url(../img/email.png) no-repeat left top;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: -35px;
-    top: 3px; }
+  position: relative;
+}
+.mail a {
+  color: #ffeb00;
+}
+.mail::before {
+  content: '';
+  background: url(../img/email.png) no-repeat left top;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -35px;
+  top: 3px;
+}
 
 #mc_embed_signup {
   background: transparent;
   clear: left;
   font: 14px Helvetica,Arial,sans-serif;
-  width: 100%; }
+  width: 100%;
+}
 
 #mc_embed_signup input.email {
   width: 232px;
@@ -213,32 +265,41 @@ address ul {
   border: none;
   border-bottom: 2px solid #ffeb00;
   border-radius: 0px;
-  float: left; }
+  float: left;
+}
 
 #mc_embed_signup .button {
-  background: #000; }
+  background: #000;
+}
 
 #mc_embed_signup_scroll {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .photo-stream ul {
-  padding: 0 15px; }
-  .photo-stream ul li {
-    display: inline-block;
-    padding: 0;
-    margin: 0; }
+  padding: 0 15px;
+}
+.photo-stream ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
 
 .dropdown-menu {
   bottom: 0;
-  top: 100%; }
+  top: 100%;
+}
 
 .navbar-text {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .navbar-inverse {
-  background: #000; }
-  .navbar-inverse .navbar-text {
-    color: #ffeb00; }
+  background: #000;
+}
+.navbar-inverse .navbar-text {
+  color: #ffeb00;
+}
 
 .example .overlay {
   width: 100%;
@@ -251,14 +312,16 @@ address ul {
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: all 0.2s 0.4s ease-in-out;
-  transition: all 0.2s 0.4s ease-in-out; }
+  transition: all 0.2s 0.4s ease-in-out;
+}
 
 .example .wraper {
   display: block;
   position: relative;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  border: 1px solid #f1f1f1; }
+  border: 1px solid #f1f1f1;
+}
 
 .example a.info {
   display: inline-block;
@@ -267,10 +330,12 @@ address ul {
   color: #fff;
   border: 1px solid #fff;
   background-color: transparent;
-  margin: 7em 11em; }
+  margin: 7em 11em;
+}
 
 .example a.info:hover {
-  box-shadow: 0 0 5px #fff; }
+  box-shadow: 0 0 5px #fff;
+}
 
 .example:hover .overlay {
   opacity: 1;
@@ -279,11 +344,13 @@ address ul {
   -moz-transition: opacity .25s ease;
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px); }
+  transform: translate(0px, 0px);
+}
 
 .example:hover a.info {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
   -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s; }
+  transition-delay: 0.3s;
+}
