@@ -1,0 +1,302 @@
+@font-face {
+	font-family: 'gothic';
+	src: url('../fonts/gothic.eot');
+	src: local('gothic'), url('../fonts/gothic.woff') format('woff'), url('../fonts/gothic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Code';
+    src: local('Code Light'), local('Code-Light'), url('../fonts/codelight.woff2') format('woff2'), url('../fonts/codelight.woff') format('woff'), url('../fonts/codelight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Code Bold';
+    src: local('Code Bold'), local('Code-Bold'), url('../fonts/codebold.woff2') format('woff2'), url('../fonts/codebold.woff') format('woff'), url('../fonts/codebold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background: #f6f6f6;
+}
+header {
+    background: url(../img/slider-bg.png);
+    .title {
+        background: #403f44;
+        color: #ffea00;
+        display: inline-block;
+        margin: 1em 2em;
+        padding: 0.2em 0.8em 0.2em 0.4em;
+        text-transform: uppercase;
+        font: bold  "gothic";
+    }
+}
+section {
+    padding: 7em 0;
+}
+footer {
+    background: #3f3f44;
+    padding-top: 2em;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a { 
+    background-image: linear-gradient(to bottom,#ffea00 0,#ffea00 100%);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-image: linear-gradient(to bottom,#ffea00 0,#ffea00 100%);
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    background-image: linear-gradient(to bottom,#ffea00 0,#ffea00 100%);
+}
+.navbar-collapse {
+	padding-top: 45px;
+}
+.navbar{
+    border-radius: 0px;
+}
+.problem {
+    text-align: center;
+    .big {
+        color: #3f3f44;
+        font: 400 15em "gothic";
+    }
+    .page {
+        color: #ffea00;
+        font: bold 6em "gothic";
+        background: #3f3f44;
+        display: inline-block;
+        position: relative;
+        padding-right: 1em;
+        span {
+            position: absolute;
+            font-size: 2em;
+            z-index: 2;
+            top: -75px;
+            right: 10px;
+        }
+    }
+    .problem-link {
+        display: inline-block;
+        background: #000;
+        border-bottom: 3px solid #ffeb00;
+        color: #fff;
+        font: bold 2em "gothic";
+        padding: 0.2em 1em;
+        margin: 0 2em;
+        &:hover {
+            background: #ffeb00;
+            color: #000;
+            
+        }
+    
+    }
+    .dif {
+        display: inline-block;
+        background: #ffeb00;
+        font: bold 2em "gothic";
+        padding: 0.2em 0.6em;
+    }
+    
+}
+.link {
+    margin-top: 2em;
+}
+.about {
+    h4 {
+        color: #fff;
+        font: bold 1.2em "gothic";
+    }
+    p {
+        color: #fff;
+        font:  0.8em "gothic";
+        line-height: 21px;
+    }
+    .more {
+        background: #000;
+        border-bottom: 3px solid #ffeb00;
+        color: #fff;
+        font: bold 1em "gothic";
+        padding: 0.2em 1em;
+        margin: 2em 0;
+        &:hover {
+            background: #ffeb00;
+            color: #000;
+            
+        }
+    }
+    img {
+        margin-top: 2px;
+    }
+}
+.tweets {
+    h4 {
+        color: #fff;
+        font: bold 1.2em "gothic";
+    }
+    .tweet-list {
+        list-style: none;
+        color: #fff;
+        font: bold 1em "gothic";
+        li {
+            display: inline-block;
+            margin-top: 0.8em;
+            position: relative;
+            a {
+                color: #ffeb00;
+            }
+            .time {
+                color: #ffeb00;
+                font-size: 8px;
+            }
+            &::before {
+                content: '';
+                background: url(../img/twitter-birs-icon.png) no-repeat left top;
+                width: 26px;
+                height: 22px;
+                position: absolute;
+                left: -35px;
+                top: 10px;
+
+            }
+            .link {
+                color: #fff;
+            }
+        }
+    }
+}
+.soc {
+    margin-right: 5px;
+}
+.social {
+    li {
+        text-align: center;
+        display: inline-block;
+        background: #000;
+        color: #fff;
+        width: 30px;
+        min-height: 30px;
+        vertical-align: middle;
+        padding-top: 5px;
+        margin-top: 2px;
+        a {
+            color: #fff;
+            &:hover {
+                color: #000;
+            }
+        }
+        &:hover {
+                background: #ffeb00;
+        }
+    }
+}
+.address {
+    h4 {
+        color: #fff;
+        font: bold 1.2em "gothic";
+    }
+    p {
+        color: #fff;
+        font:  1em "gothic";
+        line-height: 21px;
+    }
+}
+address {
+    ul {
+        list-style: none;
+        li {
+            margin-top: 1em;
+            color: #fff;
+            font:  1em "gothic";
+            line-height: 21px;
+        }
+    }
+}
+.adr {
+    position: relative;
+    &::before {
+        content: '';
+        background: url(../img/adress.png) no-repeat left top;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -35px;
+        top: 3px;
+
+    }
+}
+.phn {
+    position: relative;
+    a {
+        color: #fff;
+    }
+    &::before {
+        content: '';
+        background: url(../img/phone.png) no-repeat left top;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -35px;
+        top: 3px;
+    }
+}
+.mail {
+    position: relative;
+    a {
+        color: #ffeb00; 
+    }
+    &::before {
+        content: '';
+        background: url(../img/email.png) no-repeat left top;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -35px;
+        top: 3px;
+
+    }
+}
+#mc_embed_signup{
+    background: transparent; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width:100%;
+}
+#mc_embed_signup input.email {
+    width: 232px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffeb00;
+    border-radius: 0px;
+    float: left;
+}
+#mc_embed_signup .button {
+    background: #000;
+    
+}
+#mc_embed_signup_scroll {
+    display: inline-block;
+}
+
+.photo-stream {
+    ul {
+        padding: 0 15px;
+        li {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+.dropdown-menu {
+    bottom: 0;
+    top: 100%;
+}
+.navbar-text {
+    display: inline-block;
+}
+.navbar-inverse {
+    background: #000;
+    .navbar-text {
+        color: #ffeb00;
+}
+}
