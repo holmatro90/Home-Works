@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'gothic';
+  src: url("../fonts/gothic.eot");
+  src: local("gothic"), url("../fonts/gothic.woff") format("woff"), url("../fonts/gothic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Code';
+  src: local("Code Light"), local("Code-Light"), url("../fonts/codelight.woff2") format("woff2"), url("../fonts/codelight.woff") format("woff"), url("../fonts/codelight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Code Bold';
+  src: local("Code Bold"), local("Code-Bold"), url("../fonts/codebold.woff2") format("woff2"), url("../fonts/codebold.woff") format("woff"), url("../fonts/codebold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+/* line 19, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+body {
+  background: #f6f6f6; }
+
+/* line 23, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+.prog-det {
+  background: #403f46;
+  padding: 1em;
+  margin-top: 1em; }
+  /* line 27, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+  .prog-det h4 {
+    font: 1.3em "gothic";
+    text-transform: uppercase;
+    color: #ffeb00; }
+  /* line 32, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+  .prog-det li {
+    list-style: none;
+    margin-top: 1em;
+    position: relative;
+    color: #fff;
+    font: 1.1em "gothic";
+    text-transform: uppercase;
+    line-height: 21px; }
+    /* line 40, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+    .prog-det li::before {
+      content: '';
+      background: url(../img/project/arrow.png);
+      width: 31px;
+      height: 31px;
+      position: absolute;
+      left: -45px;
+      top: -5px; }
+
+/* line 53, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+.posts {
+  background: #403f46;
+  padding: 1em;
+  margin-top: 1em; }
+  /* line 57, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+  .posts h4 {
+    font: 1.3em "gothic";
+    text-transform: uppercase;
+    color: #ffeb00; }
+  /* line 62, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+  .posts ul {
+    padding: 0;
+    list-style: none; }
+    /* line 65, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+    .posts ul li {
+      margin-top: 1em;
+      display: inline-block; }
+      /* line 68, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+      .posts ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        font: 1em "gothic"; }
+      /* line 73, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+      .posts ul li img {
+        float: left;
+        margin-right: 0.5em; }
+      /* line 77, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+      .posts ul li p {
+        color: #ffeb00;
+        text-align: right;
+        font: 0.8em "gothic"; }
+
+/* line 85, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+.tags {
+  background: #403f46;
+  padding: 1em;
+  margin: 1em 0; }
+  /* line 89, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+  .tags h4 {
+    font: 1.3em "gothic";
+    text-transform: uppercase;
+    color: #ffeb00; }
+  /* line 94, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+  .tags ul {
+    padding: 0; }
+    /* line 96, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+    .tags ul li {
+      display: inline-block;
+      font: bold 1.2em "gothic";
+      color: #424147;
+      background: #ffeb00;
+      padding: 0.2em;
+      margin-top: 0.2em;
+      text-transform: uppercase; }
+
+/*# sourceMappingURL=project.css.map */
