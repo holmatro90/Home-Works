@@ -23,7 +23,7 @@ body {
 .prog-det {
   background: #403f46;
   padding: 1em;
-  margin-top: 1em; }
+  margin-top: 2em; }
   /* line 27, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
   .prog-det h4 {
     font: 1.3em "gothic";
@@ -51,7 +51,7 @@ body {
 /* line 53, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
 .posts {
   background: #403f46;
-  padding: 1em;
+  padding: 2em;
   margin-top: 1em; }
   /* line 57, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
   .posts h4 {
@@ -84,7 +84,7 @@ body {
 /* line 85, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
 .tags {
   background: #403f46;
-  padding: 1em;
+  padding: 2em;
   margin: 1em 0; }
   /* line 89, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
   .tags h4 {
@@ -103,5 +103,14 @@ body {
       padding: 0.2em;
       margin-top: 0.2em;
       text-transform: uppercase; }
+
+/* line 108, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+.carousel-nav carousel-cell {
+  height: 80px;
+  width: 100px; }
+
+/* line 113, D:/GeekHub/HomeWorks/10/app/scss/project.scss */
+.rg-gallery {
+  margin-top: 2em; }
 
 /*# sourceMappingURL=project.css.map */

@@ -22,7 +22,7 @@ body {
 .prog-det {
   background: #403f46;
   padding: 1em;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 .prog-det h4 {
   font: 1.3em "gothic";
@@ -50,7 +50,7 @@ body {
 
 .posts {
   background: #403f46;
-  padding: 1em;
+  padding: 2em;
   margin-top: 1em;
 }
 .posts h4 {
@@ -83,7 +83,7 @@ body {
 
 .tags {
   background: #403f46;
-  padding: 1em;
+  padding: 2em;
   margin: 1em 0;
 }
 .tags h4 {
@@ -102,4 +102,13 @@ body {
   padding: 0.2em;
   margin-top: 0.2em;
   text-transform: uppercase;
+}
+
+.carousel-nav carousel-cell {
+  height: 80px;
+  width: 100px;
+}
+
+.rg-gallery {
+  margin-top: 2em;
 }
