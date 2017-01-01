@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'gothic';
+  src: url("../fonts/gothic.eot");
+  src: local("gothic"), url("../fonts/gothic.woff") format("woff"), url("../fonts/gothic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Code';
+  src: local("Code Light"), local("Code-Light"), url("../fonts/codelight.woff2") format("woff2"), url("../fonts/codelight.woff") format("woff"), url("../fonts/codelight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Code Bold';
+  src: local("Code Bold"), local("Code-Bold"), url("../fonts/codebold.woff2") format("woff2"), url("../fonts/codebold.woff") format("woff"), url("../fonts/codebold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+/* line 19, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+body {
+  background: #f6f6f6; }
+
+/* line 23, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.search {
+  background: #403f46;
+  margin-top: 1em;
+  padding: 1em 2em; }
+  /* line 27, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .search .search-line {
+    background: #fff;
+    border-radius: 25px; }
+    /* line 30, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .search .search-line input[type="search"] {
+      border: none;
+      outline: none;
+      -webkit-appearance: none;
+      vertical-align: middle;
+      display: inline-block;
+      color: #737373;
+      font: bold 1em "gothic";
+      border-radius: 25px;
+      padding-left: 1em; }
+    /* line 41, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .search .search-line .btn {
+      background: transparent;
+      padding: 0;
+      float: right;
+      margin-right: 5px; }
+
+/* line 49, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.categories, .archive {
+  background: #403f46;
+  margin-top: 1em;
+  padding: 2em; }
+  /* line 53, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .categories h4, .archive h4 {
+    font: 1.3em "gothic";
+    text-transform: uppercase;
+    color: #ffeb00; }
+  /* line 58, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .categories ul, .archive ul {
+    display: inline-block; }
+    /* line 60, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .categories ul li, .archive ul li {
+      list-style: none;
+      margin-top: 1em;
+      position: relative;
+      display: inline-block; }
+      /* line 65, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+      .categories ul li a, .archive ul li a {
+        color: #fff;
+        font: 1.1em "gothic";
+        text-transform: uppercase;
+        line-height: 21px; }
+      /* line 71, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+      .categories ul li::before, .archive ul li::before {
+        content: '';
+        background: url(../img/project/arrow.png);
+        width: 31px;
+        height: 31px;
+        position: absolute;
+        left: -35px;
+        top: -5px; }
+
+/* line 87, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.posts {
+  background: #403f46;
+  padding: 2em;
+  margin-top: 1em; }
+  /* line 91, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .posts h4 {
+    font: 1.3em "gothic";
+    text-transform: uppercase;
+    color: #ffeb00; }
+  /* line 96, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .posts ul {
+    padding: 0;
+    list-style: none; }
+    /* line 99, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .posts ul li {
+      margin-top: 1em;
+      display: inline-block; }
+      /* line 102, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+      .posts ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        font: 1em "gothic"; }
+      /* line 107, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+      .posts ul li img {
+        float: left;
+        margin-right: 0.5em; }
+      /* line 111, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+      .posts ul li p {
+        color: #ffeb00;
+        text-align: right;
+        font: 0.8em "gothic"; }
+
+/* line 119, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.tags {
+  background: #403f46;
+  padding: 2em;
+  margin: 1em 0; }
+  /* line 123, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .tags h4 {
+    font: 1.3em "gothic";
+    text-transform: uppercase;
+    color: #ffeb00; }
+  /* line 128, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .tags ul {
+    padding: 0; }
+    /* line 130, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .tags ul li {
+      display: inline-block;
+      font: bold 1.2em "gothic";
+      color: #424147;
+      background: #ffeb00;
+      padding: 0.2em;
+      margin-top: 0.2em;
+      text-transform: uppercase; }
+
+/*# sourceMappingURL=single-post.css.map */

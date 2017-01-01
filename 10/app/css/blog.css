@@ -19,32 +19,65 @@ body {
   background: #f6f6f6;
 }
 
-.prog-det {
+.search {
   background: #403f46;
-  padding: 1em;
-  margin-top: 2em;
+  margin-top: 1em;
+  padding: 1em 2em;
 }
-.prog-det h4 {
+.search .search-line {
+  background: #fff;
+  border-radius: 25px;
+}
+.search .search-line input[type="search"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  display: inline-block;
+  color: #737373;
+  font: bold 1em "gothic";
+  border-radius: 25px;
+  padding-left: 1em;
+}
+.search .search-line .btn {
+  background: transparent;
+  padding: 0;
+  float: right;
+  margin-right: 5px;
+}
+
+.categories, .archive {
+  background: #403f46;
+  margin-top: 1em;
+  padding: 2em;
+}
+.categories h4, .archive h4 {
   font: 1.3em "gothic";
   text-transform: uppercase;
   color: #ffeb00;
 }
-.prog-det li {
+.categories ul, .archive ul {
+  display: inline-block;
+}
+.categories ul li, .archive ul li {
   list-style: none;
   margin-top: 1em;
   position: relative;
+  display: inline-block;
+}
+.categories ul li a, .archive ul li a {
   color: #fff;
   font: 1.1em "gothic";
   text-transform: uppercase;
   line-height: 21px;
 }
-.prog-det li::before {
+.categories ul li::before, .archive ul li::before {
   content: '';
   background: url(../img/project/arrow.png);
   width: 31px;
   height: 31px;
   position: absolute;
-  left: -45px;
+  left: -35px;
   top: -5px;
 }
 
@@ -104,39 +137,14 @@ body {
   text-transform: uppercase;
 }
 
-.carousel-nav carousel-cell {
-  height: 80px;
-  width: 100px;
-}
-
-.rg-gallery {
-  margin: 2em 0;
-}
-
-.main {
-  padding-bottom: 2em;
-}
-.main h4 {
-  display: inline-block;
-  color: #ffea00;
-  background: #403f46;
-  font: bold 1.2em "gothic";
-  text-transform: uppercase;
-  padding: 0.1em 0.5em;
+.main .ability {
+  background: #ffeb00;
   margin-top: 1em;
 }
-.main .text {
-  border-bottom: 1px solid #d8d8d8;
-  padding: 1em 0;
-}
-.main .text p {
-  color: #424147;
-  font: bold 1em "gothic";
-  line-height: 30px;
-}
-.main ul {
+.main .blog-posts {
   margin-top: 1em;
 }
-.main ul li {
-  display: inline-block;
+.main .blog-posts .info {
+  background: #ffeb00;
+  padding: 1em;
 }
