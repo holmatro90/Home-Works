@@ -140,6 +140,19 @@ body {
 .main .ability {
   background: #ffeb00;
   margin-top: 1em;
+  padding: 1em 1em 0.1em;
+}
+.main .ability p {
+  color: #000;
+  font: bold 1.5em "gothic";
+  line-height: 28px;
+  font-style: italic;
+}
+.main .ability .ability-sign {
+  color: #000;
+  font: bold 0.7em "gothic";
+  font-style: italic;
+  text-align: right;
 }
 .main .blog-posts {
   margin-top: 1em;
@@ -147,4 +160,52 @@ body {
 .main .blog-posts .info {
   background: #ffeb00;
   padding: 1em;
+}
+.main .blog-posts .info h4 {
+  color: #000;
+  font: bold 1.8em "gothic";
+  font-size: 23px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.main .blog-posts .info .info-text {
+  color: #5e5e5e;
+  font: bold 1em "gothic";
+  line-height: 20px;
+}
+.main .blog-posts .info a {
+  display: inline-block;
+  color: #5e5e5e;
+  font: bold 0.9em "gothic";
+  line-height: 20px;
+  margin-right: 1em;
+}
+.main .blog-posts .info .sign {
+  color: #000;
+  font: bold 0.9em "gothic";
+  line-height: 20px;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.pagination li a {
+  border: none;
+  background: transparent;
+  color: #414146;
+  font: bold 1.5em "gothic";
+  text-transform: uppercase;
+}
+.pagination .active {
+  background: #ffeb00;
+}
+
+.nav-prev {
+  padding-right: 3em;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  background: #ffeb00;
+  color: #414146;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  background: transparent;;
 }
