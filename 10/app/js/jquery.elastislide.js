@@ -81,7 +81,7 @@
 	$.elastislide.defaults 		= {
 		speed		: 450,	// animation speed
 		easing		: '',	// animation easing effect
-		imageW		: 200,	// the images width
+		imageW		: 190,	// the images width
 		margin		: 3,	// image margin right
 		border		: 2,	// image border
 		minItems	: 1,	// the minimum number of items to show. 

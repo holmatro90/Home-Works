@@ -142,6 +142,19 @@ body {
     .ability {
         background: #ffeb00;
         margin-top: 1em;
+        padding: 1em 1em 0.1em;
+        p {
+            color: #000;
+            font: bold 1.5em "gothic";
+            line-height: 28px;
+            font-style: italic;
+        }
+        .ability-sign {
+            color: #000;
+            font: bold 0.7em "gothic";
+            font-style: italic;
+            text-align: right;
+        }
     }
     .blog-posts {
         margin-top: 1em;
@@ -149,8 +162,49 @@ body {
             background: #ffeb00;
             padding: 1em;
             h4 {
-                
+                color: #000;
+                font: bold 1.8em "gothic";
+                font-size: 23px;
+                line-height: 30px;
+                text-transform: uppercase;
+            }
+            .info-text {
+                color: #5e5e5e;
+                font: bold 1em "gothic";
+                line-height: 20px;
+            }
+            a {
+                display: inline-block;
+                color: #5e5e5e;
+                font: bold 0.9em "gothic";
+                line-height: 20px;
+                margin-right: 1em;
+            }
+            .sign {
+                color: #000;
+                font: bold 0.9em "gothic";
+                line-height: 20px;
+                display: inline-block;
+                margin-left: 1em;
             }
         }
     }
+}
+
+.pagination {
+    li {
+        a{
+            border: none;
+            background: transparent;
+            color: #414146;
+            font: bold 1.5em "gothic";
+            text-transform: uppercase;
+        }
+    }
+    .active {
+            background: #ffeb00;
+        }
+}
+.nav-prev {
+    padding-right: 3em;
 }

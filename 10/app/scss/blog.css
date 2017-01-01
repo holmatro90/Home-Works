@@ -140,14 +140,69 @@ body {
 /* line 142, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
 .main .ability {
   background: #ffeb00;
-  margin-top: 1em; }
+  margin-top: 1em;
+  padding: 1em 1em 0.1em; }
+  /* line 146, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+  .main .ability p {
+    color: #000;
+    font: bold 1.5em "gothic";
+    line-height: 28px;
+    font-style: italic; }
+  /* line 152, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+  .main .ability .ability-sign {
+    color: #000;
+    font: bold 0.7em "gothic";
+    font-style: italic;
+    text-align: right; }
 
-/* line 146, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+/* line 159, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
 .main .blog-posts {
   margin-top: 1em; }
-  /* line 148, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+  /* line 161, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
   .main .blog-posts .info {
     background: #ffeb00;
     padding: 1em; }
+    /* line 164, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+    .main .blog-posts .info h4 {
+      color: #000;
+      font: bold 1.8em "gothic";
+      font-size: 23px;
+      line-height: 30px;
+      text-transform: uppercase; }
+    /* line 171, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+    .main .blog-posts .info .info-text {
+      color: #5e5e5e;
+      font: bold 1em "gothic";
+      line-height: 20px; }
+    /* line 176, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+    .main .blog-posts .info a {
+      display: inline-block;
+      color: #5e5e5e;
+      font: bold 0.9em "gothic";
+      line-height: 20px;
+      margin-right: 1em; }
+    /* line 183, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+    .main .blog-posts .info .sign {
+      color: #000;
+      font: bold 0.9em "gothic";
+      line-height: 20px;
+      display: inline-block;
+      margin-left: 1em; }
+
+/* line 196, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+.pagination li a {
+  border: none;
+  background: transparent;
+  color: #414146;
+  font: bold 1.5em "gothic";
+  text-transform: uppercase; }
+
+/* line 204, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+.pagination .active {
+  background: #ffeb00; }
+
+/* line 208, D:/GeekHub/HomeWorks/10/app/scss/blog.scss */
+.nav-prev {
+  padding-right: 3em; }
 
 /*# sourceMappingURL=blog.css.map */
