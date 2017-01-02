@@ -137,4 +137,111 @@ body {
       margin-top: 0.2em;
       text-transform: uppercase; }
 
+/* line 141, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.first-post {
+  margin-top: 1em;
+  border-bottom: 1px solid #d5d5d5;
+  padding-bottom: 2em; }
+  /* line 145, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .first-post .info-post {
+    background: #ffeb00;
+    padding: 1em; }
+    /* line 148, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .first-post .info-post h2 {
+      color: #000;
+      font: bold 2em "gothic";
+      line-height: 30px;
+      text-transform: uppercase; }
+    /* line 154, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .first-post .info-post p {
+      color: #000;
+      font: bold 0.9em "gothic";
+      line-height: 20px;
+      text-align: right; }
+      /* line 159, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+      .first-post .info-post p a {
+        color: #5e5e5e;
+        font: bold 0.9em "gothic"; }
+  /* line 165, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .first-post p {
+    color: #424147;
+    font: bold 1em "gothic";
+    line-height: 30px;
+    margin-top: 1em; }
+
+/* line 172, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+h5 {
+  display: inline-block;
+  color: #ffea00;
+  background: #403f46;
+  padding: 0 0.3em;
+  font: bold 1.2em "gothic";
+  line-height: 21px;
+  text-transform: uppercase;
+  margin: 1em 0; }
+
+/* line 183, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.post-share h5 {
+  float: left; }
+
+/* line 186, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.post-share li {
+  display: inline-block;
+  background: #ffea00;
+  color: #424147;
+  font: bold 1.2em "gothic";
+  line-height: 21px;
+  line-height: 21px;
+  padding: 0 0.5em 0 0;
+  text-align: center; }
+  /* line 195, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .post-share li a {
+    color: #fff;
+    background: #000;
+    text-align: center;
+    padding: 0.3em 0.5em; }
+
+/* line 204, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.related {
+  margin-top: 1em;
+  border-bottom: 1px solid #d5d5d5; }
+  /* line 207, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .related ul {
+    display: inline-block; }
+    /* line 209, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .related ul li {
+      display: inline-block;
+      margin-top: 1em; }
+      /* line 212, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+      .related ul li .blog {
+        background-color: #ffea00;
+        padding: 0.6em; }
+        /* line 215, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+        .related ul li .blog h6 {
+          color: #000;
+          font: bold 1em "gothic";
+          line-height: 17px;
+          text-transform: uppercase; }
+
+/* line 225, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.coments {
+  border-bottom: 1px solid #d5d5d5; }
+  /* line 227, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .coments li {
+    list-style: none; }
+    /* line 229, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .coments li .icon {
+      float: left;
+      margin-right: 1em; }
+    /* line 234, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .coments li .info .nickname {
+      color: #000;
+      font: bold 1em "gothic";
+      line-height: 21px; }
+    /* line 239, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    .coments li .info .coment {
+      color: #424147;
+      font: bold 1em "gothic";
+      line-height: 30px; }
+
 /*# sourceMappingURL=single-post.css.map */
