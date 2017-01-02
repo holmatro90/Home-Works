@@ -192,56 +192,110 @@ h5 {
   font: bold 1.2em "gothic";
   line-height: 21px;
   line-height: 21px;
-  padding: 0 0.5em 0 0;
+  padding: 0 0.8em 0 0;
   text-align: center; }
   /* line 195, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
   .post-share li a {
     color: #fff;
     background: #000;
     text-align: center;
-    padding: 0.3em 0.5em; }
+    padding: 0.3em 0.5em;
+    margin-right: 1em; }
 
-/* line 204, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+/* line 205, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
 .related {
   margin-top: 1em;
   border-bottom: 1px solid #d5d5d5; }
-  /* line 207, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  /* line 208, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
   .related ul {
     display: inline-block; }
-    /* line 209, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    /* line 210, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
     .related ul li {
       display: inline-block;
       margin-top: 1em; }
-      /* line 212, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+      /* line 213, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
       .related ul li .blog {
         background-color: #ffea00;
         padding: 0.6em; }
-        /* line 215, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+        /* line 216, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
         .related ul li .blog h6 {
           color: #000;
           font: bold 1em "gothic";
           line-height: 17px;
           text-transform: uppercase; }
 
-/* line 225, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+/* line 226, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
 .coments {
   border-bottom: 1px solid #d5d5d5; }
-  /* line 227, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  /* line 228, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
   .coments li {
     list-style: none; }
-    /* line 229, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    /* line 230, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
     .coments li .icon {
       float: left;
       margin-right: 1em; }
-    /* line 234, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    /* line 235, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
     .coments li .info .nickname {
       color: #000;
       font: bold 1em "gothic";
       line-height: 21px; }
-    /* line 239, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+    /* line 240, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
     .coments li .info .coment {
       color: #424147;
       font: bold 1em "gothic";
       line-height: 30px; }
+
+/* line 249, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.leave-coment input[type="text"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  display: inline-block;
+  color: #737373;
+  font: bold 1em "gothic";
+  line-height: 30px;
+  padding-left: 1em;
+  border-right: 4px solid #f6f6f6; }
+
+/* line 261, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.leave-coment input[type="email"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  display: inline-block;
+  color: #737373;
+  font: bold 1em "gothic";
+  line-height: 30px;
+  padding-left: 1em;
+  border-left: 4px solid #f6f6f6; }
+
+/* line 273, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.leave-coment .text-area {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  display: inline-block;
+  color: #737373;
+  font: bold 1em "gothic";
+  line-height: 30px;
+  padding-left: 1em;
+  margin-top: 1em; }
+
+/* line 285, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+.leave-coment a {
+  float: right;
+  color: #fff;
+  background: #000;
+  border-bottom: 2px solid #ffea00;
+  font: bold 1em "gothic";
+  padding: 0.2em 0.5em;
+  margin: 1em 0; }
+  /* line 293, D:/GeekHub/HomeWorks/10/app/scss/single-post.scss */
+  .leave-coment a:hover {
+    color: #000;
+    background: #ffea00; }
 
 /*# sourceMappingURL=single-post.css.map */
