@@ -190,7 +190,7 @@ h5 {
   font: bold 1.2em "gothic";
   line-height: 21px;
   line-height: 21px;
-  padding: 0 0.5em 0 0;
+  padding: 0 0.8em 0 0;
   text-align: center;
 }
 .post-share li a {
@@ -198,6 +198,7 @@ h5 {
   background: #000;
   text-align: center;
   padding: 0.3em 0.5em;
+  margin-right: 1em;
 }
 
 .related {
@@ -241,4 +242,54 @@ h5 {
   color: #424147;
   font: bold 1em "gothic";
   line-height: 30px;
+}
+
+.leave-coment input[type="text"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  display: inline-block;
+  color: #737373;
+  font: bold 1em "gothic";
+  line-height: 30px;
+  padding-left: 1em;
+  border-right: 4px solid #f6f6f6;
+}
+.leave-coment input[type="email"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  display: inline-block;
+  color: #737373;
+  font: bold 1em "gothic";
+  line-height: 30px;
+  padding-left: 1em;
+  border-left: 4px solid #f6f6f6;
+}
+.leave-coment .text-area {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  display: inline-block;
+  color: #737373;
+  font: bold 1em "gothic";
+  line-height: 30px;
+  padding-left: 1em;
+  margin-top: 1em;
+}
+.leave-coment a {
+  float: right;
+  color: #fff;
+  background: #000;
+  border-bottom: 2px solid #ffea00;
+  font: bold 1em "gothic";
+  padding: 0.2em 0.5em;
+  margin: 1em 0;
+}
+.leave-coment a:hover {
+  color: #000;
+  background: #ffea00;
 }
