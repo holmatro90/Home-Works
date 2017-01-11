@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'gothic';
+  src: url("../fonts/gothic.eot");
+  src: local("gothic"), url("../fonts/gothic.woff") format("woff"), url("../fonts/gothic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Code';
+  src: local("Code Light"), local("Code-Light"), url("../fonts/codelight.woff2") format("woff2"), url("../fonts/codelight.woff") format("woff"), url("../fonts/codelight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code Bold';
+  src: local("Code Bold"), local("Code-Bold"), url("../fonts/codebold.woff2") format("woff2"), url("../fonts/codebold.woff") format("woff"), url("../fonts/codebold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background: #f6f6f6;
+}
+
+.search {
+  background: #403f46;
+  margin-top: 1em;
+  padding: 1em 2em;
+}
+.search .search-line {
+  background: #fff;
+  border-radius: 25px;
+}
+.search .search-line input[type="search"] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  vertical-align: middle;
+  display: inline-block;
+  color: #737373;
+  font: bold 1em "gothic";
+  border-radius: 25px;
+  padding-left: 1em;
+}
+.search .search-line .btn {
+  background: transparent;
+  padding: 0;
+  float: right;
+  margin-right: 5px;
+}
+
+.categories, .archive {
+  background: #403f46;
+  margin-top: 1em;
+  padding: 2em;
+}
+.categories h4, .archive h4 {
+  font: 1.3em "gothic";
+  text-transform: uppercase;
+  color: #ffeb00;
+}
+.categories ul, .archive ul {
+  display: inline-block;
+}
+.categories ul li, .archive ul li {
+  list-style: none;
+  margin-top: 1em;
+  position: relative;
+  display: inline-block;
+}
+.categories ul li a, .archive ul li a {
+  color: #fff;
+  font: 1.1em "gothic";
+  text-transform: uppercase;
+  line-height: 21px;
+}
+.categories ul li::before, .archive ul li::before {
+  content: '';
+  background: url(../img/project/arrow.png);
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: -35px;
+  top: -5px;
+}
+
+.posts {
+  background: #403f46;
+  padding: 2em;
+  margin-top: 1em;
+}
+.posts h4 {
+  font: 1.3em "gothic";
+  text-transform: uppercase;
+  color: #ffeb00;
+}
+.posts ul {
+  padding: 0;
+  list-style: none;
+}
+.posts ul li {
+  margin-top: 1em;
+  display: inline-block;
+}
+.posts ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font: 1em "gothic";
+}
+.posts ul li img {
+  float: left;
+  margin-right: 0.5em;
+}
+.posts ul li p {
+  color: #ffeb00;
+  text-align: right;
+  font: 0.8em "gothic";
+}
+
+.tags {
+  background: #403f46;
+  padding: 2em;
+  margin: 1em 0;
+}
+.tags h4 {
+  font: 1.3em "gothic";
+  text-transform: uppercase;
+  color: #ffeb00;
+}
+.tags ul {
+  padding: 0;
+}
+.tags ul li {
+  display: inline-block;
+  font: bold 1.2em "gothic";
+  color: #424147;
+  background: #ffeb00;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  text-transform: uppercase;
+}
+
+.main .ability {
+  background: #ffeb00;
+  margin-top: 1em;
+  padding: 1em 1em 0.1em;
+}
+.main .ability p {
+  color: #000;
+  font: bold 1.5em "gothic";
+  line-height: 28px;
+  font-style: italic;
+}
+.main .ability .ability-sign {
+  color: #000;
+  font: bold 0.7em "gothic";
+  font-style: italic;
+  text-align: right;
+}
+.main .blog-posts {
+  margin-top: 1em;
+}
+.main .blog-posts .info {
+  background: #ffeb00;
+  padding: 1em;
+}
+.main .blog-posts .info h4 {
+  color: #000;
+  font: bold 1.8em "gothic";
+  font-size: 23px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.main .blog-posts .info .info-text {
+  color: #5e5e5e;
+  font: bold 1em "gothic";
+  line-height: 20px;
+}
+.main .blog-posts .info a {
+  display: inline-block;
+  color: #5e5e5e;
+  font: bold 0.9em "gothic";
+  line-height: 20px;
+  margin-right: 1em;
+}
+.main .blog-posts .info .sign {
+  color: #000;
+  font: bold 0.9em "gothic";
+  line-height: 20px;
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.pagination li a {
+  border: none;
+  background: transparent;
+  color: #414146;
+  font: bold 1.5em "gothic";
+  text-transform: uppercase;
+}
+.pagination .active {
+  background: #ffeb00;
+}
+
+.nav-prev {
+  padding-right: 3em;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  background: #ffeb00;
+  color: #414146;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+  background: transparent;;
+}

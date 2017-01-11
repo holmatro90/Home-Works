@@ -7,13 +7,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/flexslider.css">
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/404.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/top.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="fancybox/lib/jquery-1.10.1.min.js"></script>
-    <script src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
     <script src="fancybox/source/jquery.fancybox.js"></script>
     <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-buttons.css" />
@@ -23,13 +20,33 @@
     <script src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
     <script src="js/fancyboxinit.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/slide.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/masonryinit.js"></script>
-    
-    
-</head>
+    <script src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+       <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+		<script type="text/javascript" src="js/gallery.js"></script>
+    </head>
 <body>
     <header>
         <nav class="navbar navbar-default" role="navigation">
@@ -46,7 +63,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li ><a href="index.html">HOME</a></li>
-                            <li><a href="portfolio.html">PORTFOLIO</a></li>
+                            <li  class="active"><a href="portfolio.html">PORTFOLIO</a></li>
                             <li><a href="blog.html">BLOG</a></li>
                             <li><a href="#">ABOUT US</a></li>
                             <li><a href="#">CONTACT</a></li>
@@ -54,18 +71,136 @@
                     </div>
             </div>
         </nav>
-        <h1 class="title">404 error</h1>
+        <h1 class="title">project</h1>
         
     </header>
-    <section>
-        <div class="problem">
-            <p class="big">404</p>
-            <p class="page">page not found <span>!</span></p>
-            <div class="link"><a class="problem-link" href="index.html">Back to homepage</a><p class="dif">or</p><a class="problem-link" href="#">Our Blog</a></div>
+       <div class="container-fluid">
+       <div class="row">
+       <div class="col-sm-8 main">
+        <div id="rg-gallery" class="rg-gallery">
+					<div class="rg-thumbs">
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-01-670x512.jpg" data-large="img/project/psd-templates-website-01-670x512.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-02-670x447.jpg" data-large="img/project/psd-templates-website-02-670x447.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-03-670x455.jpg" data-large="img/project/psd-templates-website-03-670x455.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-22.jpg" data-large="img/project/psd-templates-website-22.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-02-670x447.jpg" data-large="img/project/psd-templates-website-02-670x447.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-01-670x512.jpg" data-large="img/project/psd-templates-website-01-670x512.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-02-670x447.jpg" data-large="img/project/psd-templates-website-02-670x447.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-03-670x455.jpg" data-large="img/project/psd-templates-website-03-670x455.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-22.jpg" data-large="img/project/psd-templates-website-22.jpg" alt="image"/></a></li>
+                                    <li><a href="#"><img class="img-responsive" src="img/project/psd-templates-website-02-670x447.jpg" data-large="img/project/psd-templates-website-02-670x447.jpg" alt="image"/></a></li>
+							
+						</ul>
+							</div>
+						</div>
+						</div>
+				</div>
+          <h4>project description</h4>
+          <div class="text"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+            erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo 
+              consequat.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+            erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo 
+            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+            at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam 
+            liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+            erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo 
+            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+            at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam 
+            liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non 
+            habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod 
+            ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera 
+            gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. 
+            Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p></div>
+           
+           <h4>recent projects</h4>
+           <ul>
+               <li class="col-sm-4">
+                   <a href="img/project/project-one.png" class="fancybox" data-fancybox-group="gallery"><img class="img-responsive" src="img/project/project-one.png" alt="projects"></a>
+               </li>
+               <li class="col-sm-4">
+                   <a href="img/project/project-two.png" class="fancybox" data-fancybox-group="gallery"><img class="img-responsive" src="img/project/project-two.png" alt="projects"></a>
+               </li>
+               <li class="col-sm-4">
+                   <a href="img/project/project-thre.png" class="fancybox" data-fancybox-group="gallery"><img class="img-responsive" src="img/project/project-thre.png" alt="projects"></a>
+               </li>
+           </ul>
+		</div>			
+       <div class="col-sm-4">
+        <div class="prog-det">
+            <h4>Project Details</h4>
+            <ul>
+                <li>10 / 22 / 2013</li>
+                <li>skokov responsive wordpress theme</li>
+                <li>website design</li>
+                <li>ie 8, ie 9, ie 10, firefox, safari, opera, chrome</li>
+                <li>Wordpress 3.5, wordpress 3.6</li>
+                <li>responsive</li>
+                <li>logotype</li>
+                <li>unique icons</li>
+                <li>Live Preview</li>
+            </ul>
         </div>
-    </section>
-   
-    <footer>
+        <div class="posts">
+           <h4>Popular posts</h4>
+            <ul>
+                <li>
+                <img src="img/project/popular-post-img-1.png" alt="posts">
+                <a href="#">15 Fresh Examples of Clean and Minimal Web Designs</a>
+                <p>Oct. 09, 2013  <i class="fa fa-heart" aria-hidden="true"></i> 36</p>
+                </li>
+                <li>
+                <img src="img/project/popular-post-img-2.png" alt="posts">
+                <a href="#">Inspiring Examples of Color in Web Design</a>
+                <p>Oct. 10, 2013  <i class="fa fa-heart" aria-hidden="true"></i> 41</p>
+                </li>
+                <li>
+                <img src="img/project/popular-post-img-3.png" alt="posts">
+                <a href="#">17 Inspiring Examples of Parallax Scrolling Sites</a>
+                <p>Oct. 15, 2013  <i class="fa fa-heart" aria-hidden="true"></i> 35</p>
+                </li>
+                <li>
+                <img src="img/project/popular-post-img-4.png" alt="posts">
+                <a href="#">15 Websites with Beautiful Typography</a>
+                <p>Oct. 19, 2013  <i class="fa fa-heart" aria-hidden="true"></i> 10</p>
+                </li>
+                <li>
+                <img src="img/project/popular-post-img-5.png" alt="posts">
+                <a href="#">20 Resources for Beginner Designers &#064; Developers</a>
+                <p>Oct. 29, 2013  <i class="fa fa-heart" aria-hidden="true"></i> 21</p>
+                </li>
+            </ul>
+        </div>
+        <div class="tags">
+            <h4>tags</h4>
+            <ul>
+                <li>web design</li>
+                <li>html5</li>
+                <li>inspiration</li>
+                <li>photo</li>
+                <li>css</li>
+                <li>illustration</li>
+                <li>design</li>
+                <li>wordpress</li>
+                <li>business</li>
+                <li>theme</li>
+                <li>joomla</li>
+            </ul>
+        </div>
+        </div>
+        </div>
+        </div>
+   <footer>
         <div class="container-fluid">
            <div class="row">
             <div class="about col-md-4">

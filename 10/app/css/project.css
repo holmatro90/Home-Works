@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'gothic';
+  src: url("../fonts/gothic.eot");
+  src: local("gothic"), url("../fonts/gothic.woff") format("woff"), url("../fonts/gothic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Code';
+  src: local("Code Light"), local("Code-Light"), url("../fonts/codelight.woff2") format("woff2"), url("../fonts/codelight.woff") format("woff"), url("../fonts/codelight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code Bold';
+  src: local("Code Bold"), local("Code-Bold"), url("../fonts/codebold.woff2") format("woff2"), url("../fonts/codebold.woff") format("woff"), url("../fonts/codebold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background: #f6f6f6;
+}
+
+.prog-det {
+  background: #403f46;
+  padding: 1em;
+  margin-top: 2em;
+}
+.prog-det h4 {
+  font: 1.3em "gothic";
+  text-transform: uppercase;
+  color: #ffeb00;
+}
+.prog-det li {
+  list-style: none;
+  margin-top: 1em;
+  position: relative;
+  color: #fff;
+  font: 1.1em "gothic";
+  text-transform: uppercase;
+  line-height: 21px;
+}
+.prog-det li::before {
+  content: '';
+  background: url(../img/project/arrow.png);
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: -45px;
+  top: -5px;
+}
+
+.posts {
+  background: #403f46;
+  padding: 2em;
+  margin-top: 1em;
+}
+.posts h4 {
+  font: 1.3em "gothic";
+  text-transform: uppercase;
+  color: #ffeb00;
+}
+.posts ul {
+  padding: 0;
+  list-style: none;
+}
+.posts ul li {
+  margin-top: 1em;
+  display: inline-block;
+}
+.posts ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  font: 1em "gothic";
+}
+.posts ul li img {
+  float: left;
+  margin-right: 0.5em;
+}
+.posts ul li p {
+  color: #ffeb00;
+  text-align: right;
+  font: 0.8em "gothic";
+}
+
+.tags {
+  background: #403f46;
+  padding: 2em;
+  margin: 1em 0;
+}
+.tags h4 {
+  font: 1.3em "gothic";
+  text-transform: uppercase;
+  color: #ffeb00;
+}
+.tags ul {
+  padding: 0;
+}
+.tags ul li {
+  display: inline-block;
+  font: bold 1.2em "gothic";
+  color: #424147;
+  background: #ffeb00;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  text-transform: uppercase;
+}
+
+.carousel-nav carousel-cell {
+  height: 80px;
+  width: 100px;
+}
+
+.rg-gallery {
+  margin: 2em 0;
+}
+
+.main {
+  padding-bottom: 2em;
+}
+.main h4 {
+  display: inline-block;
+  color: #ffea00;
+  background: #403f46;
+  font: bold 1.2em "gothic";
+  text-transform: uppercase;
+  padding: 0.1em 0.5em;
+  margin-top: 1em;
+}
+.main .text {
+  border-bottom: 1px solid #d8d8d8;
+  padding: 1em 0;
+}
+.main .text p {
+  color: #424147;
+  font: bold 1em "gothic";
+  line-height: 30px;
+}
+.main ul {
+  margin-top: 1em;
+}
+.main ul li {
+  display: inline-block;
+}

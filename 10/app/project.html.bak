@@ -9,27 +9,20 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/flexslider.css">
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/404.css">
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/top.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="fancybox/lib/jquery-1.10.1.min.js"></script>
-    <script src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-    <script src="fancybox/source/jquery.fancybox.js"></script>
-    <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-buttons.css" />
-    <script src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
-    <link rel="stylesheet" type="text/css" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" />
-    <script src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
-    <script src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
-    <script src="js/fancyboxinit.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
+    <!--script src="js/jquery.flexslider-min.js"></script-->
     <script src="js/slider.js"></script>
-    <script src="js/slide.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/masonryinit.js"></script>
     
+   
     
-</head>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
 <body>
     <header>
         <nav class="navbar navbar-default" role="navigation">
@@ -46,26 +39,45 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li ><a href="index.html">HOME</a></li>
-                            <li><a href="portfolio.html">PORTFOLIO</a></li>
-                            <li><a href="blog.html">BLOG</a></li>
+                            <li  class="active"><a href="portfolio.html">PORTFOLIO</a></li>
+                            <li><a href="#">BLOG</a></li>
                             <li><a href="#">ABOUT US</a></li>
                             <li><a href="#">CONTACT</a></li>
                         </ul>
                     </div>
             </div>
         </nav>
-        <h1 class="title">404 error</h1>
+        <h1 class="title">portfolio</h1>
         
     </header>
-    <section>
-        <div class="problem">
-            <p class="big">404</p>
-            <p class="page">page not found <span>!</span></p>
-            <div class="link"><a class="problem-link" href="index.html">Back to homepage</a><p class="dif">or</p><a class="problem-link" href="#">Our Blog</a></div>
-        </div>
+    
     </section>
    
-    <footer>
+    
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/mainphoto.png" alt="" title="" id="wows0_0"/></li>
+		<li><img src="data0/images/psdtemplateswebsite01670x512.jpg" alt="psd-templates-website-01-670x512" title="psd-templates-website-01-670x512" id="wows0_1"/></li>
+		<li><img src="data0/images/psdtemplateswebsite02670x447.jpg" alt="psd-templates-website-02-670x447" title="psd-templates-website-02-670x447" id="wows0_2"/></li>
+		<li><a href="http://wowslider.com"><img src="data0/images/psdtemplateswebsite03670x455.jpg" alt="wowslider.com" title="psd-templates-website-03-670x455" id="wows0_3"/></a></li>
+		<li><img src="data0/images/psdtemplateswebsite22.jpg" alt="psd-templates-website-22" title="psd-templates-website-22" id="wows0_4"/></li>
+	</ul></div>
+	<div class="ws_thumbs">
+<div>
+		<a href="#" title=""><img src="data0/tooltips/mainphoto.png" alt="" /></a>
+		<a href="#" title="psd-templates-website-01-670x512"><img src="data0/tooltips/psdtemplateswebsite01670x512.jpg" alt="" /></a>
+		<a href="#" title="psd-templates-website-02-670x447"><img src="data0/tooltips/psdtemplateswebsite02670x447.jpg" alt="" /></a>
+		<a href="#" title="psd-templates-website-03-670x455"><img src="data0/tooltips/psdtemplateswebsite03670x455.jpg" alt="" /></a>
+		<a href="#" title="psd-templates-website-22"><img src="data0/tooltips/psdtemplateswebsite22.jpg" alt="" /></a>
+	</div>
+</div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section --><footer>
         <div class="container-fluid">
            <div class="row">
             <div class="about col-md-4">
@@ -188,7 +200,7 @@
                      <ul class="nav navbar-nav hidden-xs">
                             <li><a href="index.html">HOME</a></li>
                             <li><a href="portfolio.html">PORTFOLIO</a></li>
-                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="#">BLOG</a></li>
                             <li><a href="#">ABOUT US</a></li>
                             <li><a href="#">CONTACT</a></li>
                           </ul>
